@@ -1,0 +1,169 @@
+.main {
+    display: grid;
+    grid-gap: 28px;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 56px 14px 30px 14px;
+}
+
+
+.Us-Pa-inp{
+    padding: 9px 21px;
+    height: 22px;
+    border-radius: 21px;
+    border: 1px solid #ffffff;
+    border-style: solid;
+    font-size: 14px;
+    color: #75828f;
+    margin-bottom: 14px;
+}
+
+.remember {
+    color: #41484f;
+    padding-left: 40px;
+    position: relative;
+}
+
+.remember::after {
+    content: "0";
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.auth {
+    margin-bottom: 30px;
+}
+
+.auth-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.login-button {
+    padding: 10px 28px;
+    background-color: #f75411;
+    border-radius: 21px;
+    color: white;
+    transition: all 0.25s ease;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    border: none;
+}
+
+.login-button:hover {
+    background-color: #41484f;
+}
+
+.auth-block-forgot {
+    text-align: right;
+    display: grid;
+}
+
+.auth-block-forgot a{
+    color: #2186c4;
+    margin: 5px 0;
+}
+
+.latest-members-text {
+    padding: 21px 28px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.latest-members-ph{
+    padding: 14px;
+}
+
+.latest-members-ph img{
+    margin: 5px;
+}
+
+.main-secound-img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+.main-secound-auth {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.main-secound-auth-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.main-secound-auth-1 input {
+    width: 100%;
+    margin: 0 5px;
+}
+
+.main-secound-auth-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.main-secound-auth-2 .auth-block-forgot {
+    display: flex;
+}
+
+.main-secound-auth-2 .auth-block-forgot a{
+    margin: 0 5px;
+}
+
+.main-third {
+    padding: 21px 0px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2a2e33;
+}
+
+.main-third .demo-login {
+    margin-bottom: 60px;
+    padding: 0px 28px;
+}
+
+.main-third .demo-login b:first-child{
+    font-size: 18px;
+}
+
+.main-third .demo-login p{
+    margin-bottom: 20px;
+    line-height: 2rem;
+}
+
+.hastag-block {
+    display: block;
+}
+
+.hastag-block .Hast {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hastag-block p{
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.Hastag {
+    color: black;
+    margin: 0.25rem;
+    border-radius: 14px;
+    padding: 5px 15px;
+    transition: all .2s ease;
+}
+
+.Hastag:hover {
+    background-color: #2186c3;
+    color: white;
+}

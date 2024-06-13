@@ -1,0 +1,37 @@
+footer {
+    background-color: #262a2e;
+    color: #b9babd;
+    padding: 60px 40px 20px 40px;
+}
+
+footer .about {
+    width: 30%;
+    line-height: 2rem;
+}
+
+footer .hastag-block {
+    width: 30%;
+}
+
+footer .Hast {
+    padding-left: 15px;
+}
+
+footer .Hastag {
+    color: black;
+    margin: 0.25rem;
+    border-radius: 14px;
+    padding: 5px 15px;
+    transition: all .2s ease;
+    background-color: white;
+}
+
+footer .copy-right {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.flex-justify-bettwen {
+    display: flex;
+    justify-content: space-between;
+}
